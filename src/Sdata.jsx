@@ -24,10 +24,10 @@ const Sdata = [
         link: "https://www.netflix.com/in/title/70300800",
     },
     {
-        sname: " DARK ",
-        imgsrc: "https://i.redd.it/eypme37ufmp61.jpg",
+        sname: " When They See Us ",
+        imgsrc: "https://m.media-amazon.com/images/M/MV5BZmJjM2YzOWEtOTYxYi00YjhkLTliMzgtMTA2MTc0NDQ1MDM4XkEyXkFqcGdeQXVyODY5OTk4MA@@._V1_.jpg",
         title: " A Netflix Original Series ",
-        link: "https://www.netflix.com/in/title/80100172",
+        link: "https://www.netflix.com/in/title/80200549",
     },
     
 ];
