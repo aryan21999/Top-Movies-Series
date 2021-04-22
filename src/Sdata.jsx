@@ -17,6 +17,18 @@ const Sdata = [
         title: " A Netflix Original Series ",
         link: "https://www.netflix.com/in/title/80100172",
     },
+    {
+        sname: " Bojack Horseman ",
+        imgsrc: "https://upload.wikimedia.org/wikipedia/en/d/dc/BoJack_Horseman.jpg",
+        title: " A Netflix Original Series ",
+        link: "https://www.netflix.com/in/title/70300800",
+    },
+    {
+        sname: " DARK ",
+        imgsrc: "https://i.redd.it/eypme37ufmp61.jpg",
+        title: " A Netflix Original Series ",
+        link: "https://www.netflix.com/in/title/80100172",
+    },
     
 ];
 
