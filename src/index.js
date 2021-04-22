@@ -1,34 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Card from "./Cards";
+import "./index.css";
+import Sdata from './Sdata';
 
-function Card(props){
-  return (
-  <>
-      <div className="cards">
-      <div className="card">
-        <img src={props.imgsrc} alt="myPic" className="card__img" />
-        <div className="card__info">
-          <span className="card__category">{props.title}</span>
-          <h3 className="card__title">{props.sname}</h3>
-          <a href={props.link} target="_blank">
-            <button> Watch Now </button>
-          </a>
-        </div>
-      </div>
-      </div>
-    </>
-  );
-}
 
 ReactDOM.render(
     <>
+    <h1 className='heading_style'> List of top 5 Netflix Series in 2020 </h1>
+
+
      <Card 
-       imgsrc="https://images-na.ssl-images-amazon.com/images/I/61gi3wqRKFL.jpg"
-       title=" A Netflix Original Series "
-       sname=" Stranger Things "
-       link="https://www.netflix.com/in/title/80057281"
+       imgsrc={Sdata[0].imgsrc}
+       title={Sdata[0].title}
+       sname={Sdata[0].sname}
+       link={Sdata[0].link}
      />
-     <Card />
+     <Card 
+       imgsrc={Sdata[1].imgsrc}
+       title={Sdata[1].title}
+       sname={Sdata[1].sname}
+       link={Sdata[1].link}
+     />
+     <Card 
+       imgsrc={Sdata[2].imgsrc}
+       title={Sdata[2].title}
+       sname={Sdata[2].sname}
+       link={Sdata[2].link}
+     />
+     
     </>,
   document.getElementById('root')
 );
